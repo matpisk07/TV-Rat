@@ -34,7 +34,7 @@ Voici comment installer ce robot sur votre propre ordinateur ou serveur.
 
 ### 2. Récupérer le code
 ```bash
-git clone https://github.com/matpisk07/tv-rat.git
+git clone https://github.com/matpisk07/TV-Rat.git
 cd tv-rat
 ```
 
@@ -45,7 +45,8 @@ npm install
 
 ### 4. Configuration
 
-Tout se règle au début du fichier `index.js`. Par défaut, le fichier est réglé pour les besoins de notre asso, mais vous pouvez tout changer :
+Toute la configuration se trouve au début du fichier `index.js`. 
+Par défaut, les réglages correspondent aux besoins de notre association, mais le code est **entièrement modulable**. Vous pouvez modifier les catégories ou ajouter **n'importe quel filtre avancé** (mots-clés, code postal, type de vendeur...) en utilisant la syntaxe officielle de la bibliothèque **[leboncoin-api-search](https://github.com/thomasync/leboncoin-api-search)**.
 
 - **PARIS_COORDS** : Changez les chiffres pour mettre la latitude/longitude de votre ville.
 
